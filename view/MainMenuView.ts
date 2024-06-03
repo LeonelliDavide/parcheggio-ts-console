@@ -12,7 +12,7 @@ export class MainMenuView {
             console.log('-------------------');
             console.log('');
             console.log('1 - Elenco veicoli');
-            console.log('1 - Numero veicoli presenti');
+            console.log('2 - Numero veicoli presenti');
             console.log('');
             console.log('9 - Esci');
             console.log('');
@@ -24,7 +24,7 @@ export class MainMenuView {
                     controller.getAll().forEach(v => console.log(`${v.targa} - Entrato: ${v.ingresso}`));
                     break;
                 case 2:
-                    console.log('Numero veicoli presenti');
+                    console.log(`sono presenti ${controller.getCount()} veicoli`);
                     break;
                 case 9:
                     break;
