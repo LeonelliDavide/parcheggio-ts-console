@@ -8,8 +8,8 @@ export class MainMenuView {
         let scelta: number;
 
         do {
-            console.log('GESTIONE PARCHEGGIO');
-            console.log('-------------------');
+            console.log('GESTIONE PARCHEGGIO ACME.INC');
+            console.log('----------------------------');
             console.log('');
             console.log('1 - Elenco veicoli');
             console.log('2 - Numero veicoli presenti');
