@@ -14,4 +14,9 @@ export class ParcheggiController {
     getCount(): Number {
         return this.getAll().length;
     }
+
+    addVeicolo(targa: string): boolean {
+        //this.db.parcheggio.veicoli.push(new Veicolo(targa));
+        return true;
+    }
 }
